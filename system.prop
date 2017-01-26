@@ -1,5 +1,5 @@
 # system.prop for 4034
-ro.hardware=mt6752
+ro.hardware=mt6580
 ro.zygote.preload.enable=0
 service.adb.root=1
 
@@ -10,7 +10,7 @@ persist.mtk.wcn.combo.chipid=-1
 service.wcn.driver.ready=no
 service.wcn.coredump.mode=2
 ro.mediatek.chip_ver=S01
-ro.mediatek.platform=MT6752
+ro.mediatek.platform=MT6580
 ro.mediatek.version.sdk=4
 ro.mediatek.version.release=
 
@@ -19,9 +19,9 @@ ro.mtk_perf_simple_start_win=1
 ro.mtk_perf_response_time=1
 
 # WiFi
-mediatek.wlan.chip=CONSYS_MT6752
+mediatek.wlan.chip=CONSYS_MT6580
 mediatek.wlan.ctia=0
-mediatek.wlan.module.postfix=_consys_mt6752
+mediatek.wlan.module.postfix=_consys_MT6580
 ro.mediatek.wlan.wsc=1
 ro.mediatek.wlan.p2p=1
 wifi.interface=wlan0
@@ -31,10 +31,10 @@ wifi.direct.interface=p2p0
 # Graphic
 debug.hwui.render_dirty_regions=false
 drm.service.enabled=true
-persist.sys.lcd_density=480
+persist.sys.lcd_density=240
 ro.opengles.version=196609
 ro.kernel.qemu.gles=0
-ro.sf.lcd_density=480
+ro.sf.lcd_density=240
 ro.sf.hwrotation=0
 
 # USB

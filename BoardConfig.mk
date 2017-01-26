@@ -2,7 +2,6 @@
 LOCAL_PATH := device/alcatel/4034
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
-include vendor/adev/config/board.mk
 
 # Platform
 ARCH_ARM_HAVE_TLS_REGISTER := true

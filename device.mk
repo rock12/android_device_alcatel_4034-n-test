@@ -106,8 +106,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Dalvik/HWUI
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
-# Common stuff
-$(call inherit-product, vendor/adev/config/common.mk)
 
 # Vendor
 $(call inherit-product, vendor/alcatel/4034/4034-vendor.mk)
